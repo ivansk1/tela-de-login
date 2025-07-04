@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+font-family: 'inter', sans-serif;
+margin: 0;
+padding: 0;
+color: #395886;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%v;
+    background-color: #628ecb;
+}
+
+    .formlogin{
+        display:flex;
+        flex-direction: column;
+        background-color: #b1c9ef;
+        border-radius: 7px;
+        padding: 40px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+        gap: 5px;
+    }
+
+        .formlogin h1{
+            padding: 0;
+            margin: 0;
+            font-weight: 500;
+            font-size: 2.3em;
+        }
